@@ -1,0 +1,19 @@
+Package: Friedman
+Title: Simple Tools for Transaction Data and Association Rules
+Version: 0.0.0.9000
+Authors@R: 
+    person("Veronica", "Vaccaro", email = "veronicavaccaro@usf.edu", role = c("aut", "cre"))
+Description: Provides simple functions for importing transaction data,
+    summarizing item frequencies, and generating basic association rules.
+    This package is designed for students and beginners working on small
+    data mining projects in R.
+Depends: R (>= 3.1.2)
+Imports:
+    arules,
+    arulesViz
+License: CC0
+LazyData: true
+URL: https://github.com/veronicavaccaro/Friedman
+BugReports: https://github.com/veronicavaccaro/Friedman/issues
+Suggests:
+    devtools
