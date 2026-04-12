@@ -1,0 +1,46 @@
+---
+title: "My R Markdown Primer"
+auhtor: "Veronica Vaccaro"
+output: html_document
+date: "2026-04-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+R Markdown is a tool that allows you to combine text, code, and output in one document. This makes it easier to organize work and show both the analysis and results. Instead of writing code separately and copying results, everything updates automatically when you knit the document.
+
+## Math Example
+
+An example of inline math is $a + b = c$.
+
+A displayed equation:
+
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+
+## Load Data
+
+```{r}
+data(mtcars)
+head(mtcars)
+```
+
+```{r}
+summary(mtcars)
+```
+
+```{r}
+plot(mtcars$wt, mtcars$mpg,
+     main = "MPG vs Weight",
+     xlab = "Weight",
+     ylab = "Miles Per Gallon")
+```
+
+## Reflection
+
+Using R Markdown is more efficient than writing a regular report because it keeps code and explanations in the same place. I also like that the output updates automatically when I knit the document, which helps avoid mistakes. It makes the workflow more organized and easier to reproduce.
