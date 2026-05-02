@@ -1,7 +1,7 @@
 Package: EasyRules
 Title: Simple Tools for Transaction Data and Association Rules
 Version: 0.0.0.9000
-Authors@R:
+Authors@R: 
     person("Veronica", "Vaccaro", email = "veronicavaccaro@usf.edu", role = c("aut", "cre"))
 Author: Veronica Vaccaro
 Maintainer: Veronica Vaccaro <veronicavaccaro@usf.edu>
@@ -10,13 +10,11 @@ Description: Provides beginner-friendly functions for working with transaction
     data, summarize item frequencies, create association rules, and visualize
     results using simple R functions.
 Depends: R (>= 3.1.2)
-Imports: 
-    arules,
-    methods
+Imports: arules, methods
 License: CC0
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/veronicavaccaro/Friedman
 BugReports: https://github.com/veronicavaccaro/Friedman/issues
 RoxygenNote: 7.3.3
-
+Built: R 4.5.1; ; 2026-05-02 17:04:28 UTC; unix
